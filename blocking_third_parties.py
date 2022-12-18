@@ -36,35 +36,30 @@ for url in url_list_fld2:
 s1_li=list(s1)
 s2_li=list(s2)
 
-print("This is Questin 2(a) for HW-3\n")
+
 
 print("Number of urls that are not cnn.com, and are third party domains for www.cnn.com.har:", len(s1))
-print("The first five elements for third-party url's for www.cnn.har file are:")
+print("The first five elements (or 'head' for the data) for third-party url's for www.cnn.har file are:")
 
 for i in range(5):
     print(s1_li[i],sep=" ")
 print('\n')
 
 print("Number of urls that are not macys.com, and are third party domains for www.macys.com.har:", len(s2))
-print("The first five elements for third party url's in macy'scom.har are:\n")
+print("The first five elements (or 'head' of the data') for third party url's in macy'scom.har are:\n")
 
 for i in range(5):
     print(s2_li[i],sep=" ")
 print("\n")
 
-print("#End of question 2(a)#\n\n")
-#end of question 2(a)
 
 
-#Code for Question 2(b)
-
-print("This is question 2(b) for HW3")
 intersection_s1_s2=s1.intersection(s2)
 num=len(intersection_s1_s2)
 print("The number of third party domains that exist in both har files for macys.com and cnn.com datasets are:",num)
 print("\nThe elements present in intersection are printed as follows, for reference:")
 print(intersection_s1_s2)
-print("#End of Question 2(b)#\n\n")
+
 
 
 
@@ -102,8 +97,7 @@ print("Number of Blocked Domains if we use disconnect as a filter list on list w
 print("Number of Blocked Domains if we use disconnect as a filter list on list www.macys.com.har are:",len(y))
 print("\n\n")
 file.close()
-print("#End of Question 2(c)#")
-#End of Question 2(c)
+
 
 
 #Code for Question 3
