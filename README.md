@@ -23,10 +23,28 @@ It refers to the rules generated to achieve Ad-blocking. They are implemented as
 1. Make sure to have Python 3.X installed (Here X represents any variant of Python 3, such as Python 3.11)
 2. To check what version of python your system has, open a command line tool such as terminal or cmd and type:
 
-''' $ python --version '''
+``` $ python --version ```
 
 and you should get the following output:
+
+
 <img width="571" alt="image" src="https://user-images.githubusercontent.com/83748468/208292479-c0aa936b-4fe5-4af8-8b4b-8acef3ebce4a.png">
+
+3.Install tld package using:
+```$ pip install tld```
+
+And you would get an output similar to shown below:
+
+<img width="506" alt="image" src="https://user-images.githubusercontent.com/83748468/208292887-2eaa16b1-a884-482e-9495-35c3e90cc60a.png">
+
+##Understanding the output:
+The output is threefold. The first part calculates the number of third party domains visited from the list of rules created by us in the raw rules. These raw rules can be edited as shown in the above [section](#raw-rules). The output would be printed as:
+
+1. Lists the number of domains blocked on the website pages 
+2. Lists the intersection of domains, that is, common domains present on multiple websites. This helps one see common trackers and ad - tracking patterns.
+3. Lists the number of domains blocked if we use an external filter list and not our raw rules.
+
+
 
 
 
