@@ -12,6 +12,23 @@ It refers to the HAR format which contains information about third party domains
 
 ## Raw Rules
 It refers to the rules generated to achieve Ad-blocking. They are implemented as a list, with each list being implemented as an and-or statements of simple statements, such as given as:
+
+<img width="740" alt="image" src="https://user-images.githubusercontent.com/83748468/208290826-e102e578-9b29-4774-ac9d-040c31a40658.png">
+
+*Source [Filter-Rules](https://adblockplus.org/filter-cheatsheet)*
  
 
 ## How to run the project
+
+1. Make sure to have Python 3.X installed (Here X represents any variant of Python 3, such as Python 3.11)
+2. To check what version of python your system has, open a command line tool such as terminal or cmd and type:
+
+''' $ python --version '''
+
+and you should get the following output:
+<img width="571" alt="image" src="https://user-images.githubusercontent.com/83748468/208292479-c0aa936b-4fe5-4af8-8b4b-8acef3ebce4a.png">
+
+
+
+
+
